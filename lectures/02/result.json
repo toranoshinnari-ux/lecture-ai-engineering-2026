@@ -1,0 +1,84 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 10,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 2,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0+cu130"
+  },
+  "method": "LoRA（量子化なし）",
+  "before": {
+    "label": "before",
+    "n": 23,
+    "format_rate": 0.7391304347826086,
+    "content_rate": 0.34782608695652173,
+    "both_rate": 0.34782608695652173,
+    "seconds": 23.3
+  },
+  "after": {
+    "label": "after",
+    "n": 23,
+    "format_rate": 0.9565217391304348,
+    "content_rate": 0.9565217391304348,
+    "both_rate": 0.9565217391304348,
+    "seconds": 79.5
+  },
+  "regressed": [],
+  "knowledge": [
+    {
+      "質問": "ポケモンの性別はなんですか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"性別は決まっていません\", \"needs_review\": \"true\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "伝説のポケモン「ミュウツー」の捕獲率はいくつですか",
+      "FAQ にある": false,
+      "学習前の分類": "needs_review",
+      "学習前の出力": "{\"answer\": \"確認が必要\", \"needs_review\": true}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "主人公のデフォルトの名前は何ですか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"ピカチュウ\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "セーブデータは幾つまで作成できますか",
+      "FAQ にある": false,
+      "学習前の分類": "asserted",
+      "学習前の出力": "{\"answer\": \"100\", \"needs_review\": false}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "ポケモンのレベル上限はある？",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"100\", \"needs_review\": \"false\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"ポケモンのレベル上限は最大 100 です。\", \"needs_review\": false}"
+    }
+  ],
+  "executed_training_myself": true
+}

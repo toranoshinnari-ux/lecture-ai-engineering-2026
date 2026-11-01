@@ -1,0 +1,219 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 23,
+    "format_rate": 0.9565217391304348,
+    "content_rate": 0.9565217391304348,
+    "both_rate": 0.9565217391304348,
+    "seconds": 79.5
+  },
+  "rows": [
+    {
+      "question": "レベル100より上がるか",
+      "raw": "{\"answer\": \"ポケモンのレベル上限は最大 100 です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ポケモンのカンストレベルは何レベルですか",
+      "raw": "{\"answer\": \"ポケモンのレベル上限は最大 100 です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "レベルの上限値を教えてください",
+      "raw": "{\"answer\": \"ポケモンのレベル上限は最大 100 です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "進化させるには？",
+      "raw": "{\"answer\": \"レベルアップや「かみなりのいし」などの進化の石を使うことでポケモンは進化します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ポケモンが進化する条件は何ですか",
+      "raw": "{\"answer\": \"レベルアップや「かみなりのいし」などの進化の石を使うことでポケモンは進化します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "レベル以外の進化方法について教えてください",
+      "raw": "{\"answer\": \"レベルアップや「かみなりのいし」などの進化の石を使うことでポケモンは進化します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "冒険の始まりで選べる3タイプは？",
+      "raw": "{\"answer\": \"ポケモンンのレベル上限は最大 100 です。レベルアップや「かみなりのいし」などの進化の石を使うことでポケモンは進化します。冒険の最初に選べるパートナーは、くさ・ほのお・みずの 3 タイプから 1 匹選びます。ポケモンジムを巡りバッジを 8 個すべて集めると、ポケモンリーグに挑戦できます。野生の",
+      "format_ok": false,
+      "format_reason": "json_error: JSONDecodeError",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "冒険の最初に選ぶ3匹のポケモンは何タイプですか",
+      "raw": "{\"answer\": \"ポケモンモンジの冒険の最初に選べるパートナーは、くさ・ほのお・みずの 3 タイプから 1 匹選びます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "最初のポケモン選択時のタイプを教えてください",
+      "raw": "{\"answer\": \"冒険の最初に選べるパートナーは、くさ・ほのお・みずの 3 タイプから 1 匹選びます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "バッジの必要数を教えて",
+      "raw": "{\"answer\": \"ポケモンジムを巡りバッジを 8 個すべて集めると、ポケモンリーグに挑戦できます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ジムバッジを何個集めたらリーグに行けますか",
+      "raw": "{\"answer\": \"ポケモンジムを巡りバッジを 8 個すべて集めると、ポケモンリーグに挑戦できます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ポケモンリーグに挑むためのバッジ数を教えてください",
+      "raw": "{\"answer\": \"ポケモンジムを巡りバッジを 8 個すべて集めると、ポケモンリーグに挑戦できます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "色違いについて教えて",
+      "raw": "{\"answer\": \"野生のポケモンと遭遇した際、極めて稀に通常と異なる色の「色違いポケモン」が出現します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "色が異なるポケモンが出現する仕様はありますか",
+      "raw": "{\"answer\": \"野生のポケモンと遭遇した際、極めて稀に通常と異なる色の「色違いポケモン」が出現します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "色違いポケモンが出現する条件を教えてください",
+      "raw": "{\"answer\": \"野生のポケモンと遭遇した際、極めて稀に通常と異なる色の「色違いポケモン」が出現します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "メガシンカやダイマックスは使えますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "手持ちポケモンのニックネームは変更できますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "色違いポケモンの出現確率をアップさせるアイテムはありますか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ポケモンの性格を変更するアイテムの入手方法は？",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ランクバトル（対戦）のシーズン期間はいつまでですか",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "秘伝技の消去方法を教えてください",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "裏技を教えて",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "チートを教えて",
+      "raw": "{\"answer\": \"この FAQ には記載がありません。運営に確認が必要です。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    }
+  ]
+}
